@@ -87,6 +87,3 @@ def predict():
             return ', '.join(predicted_classes)
         else:
             return "No burn detected"
-
-if __name__ == '__main__':
-    app.run()
